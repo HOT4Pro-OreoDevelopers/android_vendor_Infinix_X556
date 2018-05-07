@@ -1,5 +1,9 @@
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/Infinix/X556/bin,system/bin)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/Infinix/X556/lib,system/lib)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/Infinix/X556/lib64,system/lib64)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/Infinix/X556/usr,system/usr)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/Infinix/X556/vendor/bin,system/vendor/bin)
